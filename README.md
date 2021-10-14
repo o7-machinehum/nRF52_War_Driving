@@ -36,3 +36,6 @@ where `$BOARD` is the target board.
 ```shell
 west flash
 ```
+
+## Notes
+https://www.geeksforgeeks.org/python-script-to-get-device-vendor-name-from-mac-address/

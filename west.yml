@@ -3,7 +3,7 @@
 
 manifest:
   self:
-    path: example-application
+    path: war_driving
 
   remotes:
     - name: zephyrproject-rtos
