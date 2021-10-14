@@ -177,7 +177,7 @@ void main(void)
     fs_file_t_init(&filep);
     fs_open(&filep, "/SD:/fname.txt", (FS_O_CREATE | FS_O_WRITE | FS_O_APPEND));
 
-    size_t len = sprintf(buf, "Starting Up\n-----------"); 
+    size_t len = sprintf(buf, "Starting Up\n-----------\n"); 
     fs_write(&filep, buf, len);
 
     err = bt_enable(NULL);
