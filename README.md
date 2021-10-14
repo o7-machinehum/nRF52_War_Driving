@@ -2,6 +2,7 @@
 This a repository dedicated to Bluetooth wardriving on the Nordic nRF52. The
 idea is to deaddrop the device rather than drive around with it. The nRF52 is a
 perfect device for wardriving because...  
+
     - They're cheap
     - They're available
     - They're extremely low power
